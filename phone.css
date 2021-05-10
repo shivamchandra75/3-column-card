@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.flex-container{
+    margin: 2rem 2rem;
+    flex-direction: column;
+}
+#card1{
+    border-top-left-radius: 0.7rem;
+    border-top-right-radius: 0.7rem;
+    border-bottom-left-radius: 0rem;
+}
+#card3{
+    border-bottom-left-radius: 0.7rem;
+    border-top-right-radius: 0rem;
+}
+p{
+    margin-bottom: 0.7rem;
+    padding-right: 0.5rem;
+    font-size: 0.7rem;
+}
+.button{
+    margin: 1rem;
+    width: 6rem;
+    height: 1.7rem;
+    font-size: 0.8rem;
+    align-items: center;
+}
