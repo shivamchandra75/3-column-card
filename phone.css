@@ -16,6 +16,10 @@
     border-bottom-left-radius: 0.7rem;
     border-top-right-radius: 0rem;
 }
+
+.img{
+    height: 2.6rem;
+}
 p{
     margin-bottom: 0.7rem;
     padding-right: 0.5rem;
