@@ -4,10 +4,6 @@
 #####################################################
 *.sketch
 *.fig
-#i added these file names.
-*.jpg
-*.svg
-*.png
 
 # Avoid accidental XD upload if you convert the design file
 ###############################################
