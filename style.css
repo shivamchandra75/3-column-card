@@ -1,114 +1,117 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  box-sizing: border-box;
+  overflow: none;
 }
-
 /* added this grid property to make the elements centered  */
-body{
-    display:grid;
-    place-content: center;
+body {
+  display: grid;
+  place-content: center;
 }
 
-.flex-container{
-display: flex;
-margin: 6rem;
+.flex-container {
+  display: flex;
+  margin: 6rem;
 }
 
-#card1{
-    padding: 1.2rem;
-    height:auto;
-    background-color: hsl(31, 77%, 52%);
-    border-top-left-radius: 0.5rem;
-    border-bottom-left-radius: 0.5rem;
+#card1 {
+  padding: 1.2rem;
+  height: auto;
+  background-color: hsl(31, 77%, 52%);
+  border-top-left-radius: 0.5rem;
+  border-bottom-left-radius: 0.5rem;
 }
 
-#card2{
-    padding: 1.2rem;
-    height:auto;
-    background-color:hsl(184, 100%, 22%) ;
+#card2 {
+  padding: 1.2rem;
+  height: auto;
+  background-color: hsl(184, 100%, 22%);
 }
 
-#card3{
-    padding: 1.2rem;
-    height:auto;
-    background-color:hsl(179, 100%, 13%) ;
-    border-top-right-radius: 0.5rem;
-    border-bottom-right-radius: 0.5rem;
+#card3 {
+  padding: 1.2rem;
+  height: auto;
+  background-color: hsl(179, 100%, 13%);
+  border-top-right-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
 }
 
-#card1 .button{
-    color: hsl(31, 77%, 52%);
+#card1 .button {
+  color: hsl(31, 77%, 52%);
 }
 
-#card1 .button:hover{
-    background:inherit;
-    color:#fff;
-    border: 0.2rem solid #fff;
+#card1 .button:hover {
+  background: inherit;
+  color: #fff;
+  border: 0.2rem solid #fff;
 }
 
-#card2 .button{
-    color: hsl(184, 100%, 22%);
+#card2 .button {
+  color: hsl(184, 100%, 22%);
 }
 
-#card2 .button:hover{
-    background:inherit;
-    color:#fff;
-    border: 0.2rem solid #fff;
+#card2 .button:hover {
+  background: inherit;
+  color: #fff;
+  border: 0.2rem solid #fff;
 }
-#card3 .button{
-    color:hsl(179, 100%, 13%);
+#card3 .button {
+  color: hsl(179, 100%, 13%);
 }
-#card3 .button:hover{
-    background:inherit;
-    color:#fff;
-    border: 0.2rem solid #fff;
-}
-
-
-.button{
-    font-size: 1rem;
-    font-weight: bold;
-    margin: 3rem;
-    margin-left: 1.2rem;
-    border-radius: 1rem;
-    border: none; 
-    outline:none;
-    background-color: #fff;
-    padding: 0.5rem ;
-    width: 9rem;
-    height: 2.5rem;
-    cursor: pointer;
+#card3 .button:hover {
+  background: inherit;
+  color: #fff;
+  border: 0.2rem solid #fff;
 }
 
-.button:hover{
-    background-color: transparent;
-    border:0.2rem solid white;
-    color: white;
+.button {
+  font-size: 1rem;
+  font-weight: bold;
+  margin: 3rem;
+  margin-left: 1.2rem;
+  border-radius: 1rem;
+  border: none;
+  outline: none;
+  background-color: #fff;
+  padding: 0.5rem;
+  width: 9rem;
+  height: 2.5rem;
+  cursor: pointer;
 }
 
-.attribution{
-    text-align: center;
+.button:hover {
+  background-color: transparent;
+  border: 0.2rem solid white;
+  color: white;
 }
 
-.primary-heading{
-    margin: 1.2rem;
-    font-size: 2.8rem;
-    font-family: 'Big Shoulders Display', cursive;
-    color: white;
-    font-kerning: none;
-    
+.attribution {
+  text-align: center;
 }
 
-.flex-container img,p{
-    margin: 1.2rem;
-    font-family: 'Lexend Deca', sans-serif;
-    color: white;
+.primary-heading {
+  margin: 1.2rem;
+  font-size: 2.8rem;
+  font-family: "Big Shoulders Display", cursive;
+  color: white;
+  font-kerning: none;
+  letter-spacing: 0.12rem;
+  line-height: 1.6;
 }
 
-p{
-    font-size: 1rem;
-    font-stretch: expanded;
-    margin-bottom: 5.5rem;
-    padding-right: 5rem;
+.flex-container img {
+  margin: 1.2rem;
+  font-family: "Lexend Deca", sans-serif;
+  color: white;
+}
+
+p {
+  font-size: 1rem;
+  font-stretch: expanded;
+  margin: 1.2rem;
+  margin-bottom: 5.5rem;
+  padding-right: 5rem;
+  font-family: "Lexend Deca", sans-serif;
+  color: white;
+  line-height: 1.6;
 }
